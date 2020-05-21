@@ -126,3 +126,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.nav-bar {
+  background-color: #12121207;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  background-color: #121212;
+  color: rgba(255, 255, 255, 0.6);
+}
+h1,
+h2 {
+  color: rgba(255, 255, 255, 0.87);
+}
