@@ -150,9 +150,6 @@ h2 {
   color: rgba(255, 255, 255, 0.87);
   font-size: 4.8rem;
 }
-h3 {
-  font-size: 1.8rem;
-}
 p {
   font-size: 2.7rem;
 }
@@ -166,12 +163,10 @@ p {
   display: flex;
   justify-content: space-around;
   padding: 13px 0;
+  margin-bottom: 50px;
 }
 .nav-bar nav a {
   font-size: 1.6rem;
-}
-.not-nav {
-  background-color: #121212;
 }
 .intro-section {
   display: flex;
@@ -189,6 +184,14 @@ p {
 .intro-section .intro-right .sign-buttons {
   display: flex;
   justify-content: space-around;
+  font-size: 1.8rem;
+}
+.intro-section .intro-right .sign-buttons .btn {
+  background-color: #39869D;
+  text-align: center;
+  padding: 13px 0;
+  width: 208px;
+  border-radius: 18px;
 }
 .intro-section .intro-left {
   width: 46%;
