@@ -1,16 +1,46 @@
 
+.not-nav {
 
+  background-color: @main-background;
+    
+}
 
 .intro-section {
-    display: flex;
+   display: flex;
+   
+  
 
     .intro-right {
-        display: flex;
-        flex-direction: column;
+        //This might not be the best way to do this
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-around;
+        // p {
+        //     margin-bottom: 50px;
+        // }
+        h2 {
+            margin-bottom: 30px;
+        }
+        p {
+            margin-bottom: 80px;
+        }
+        
+        
+        width: 46%;
+        padding: 2%;
+        
+        
+
+        
         .sign-buttons {
             display: flex;
+            justify-content: space-around; 
             
         }
+    }
+    .intro-left {
+        width: 46%;
+        padding: 2%
     }
 
 }

@@ -138,9 +138,11 @@ html {
 }
 html,
 body {
-  background-color: #121212;
   color: rgba(255, 255, 255, 0.6);
   font-family: 'Comfortaa', cursive;
+}
+body {
+  background-color: #121212;
 }
 h1,
 h2 {
@@ -154,21 +156,43 @@ h3 {
 p {
   font-size: 2.7rem;
 }
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
 .nav-bar {
-  background-color: darkgray;
+  background-color: rgba(255, 255, 255, 0.09);
   display: flex;
   justify-content: space-around;
-  padding: 50px 0;
+  padding: 13px 0;
+}
+.nav-bar nav a {
+  font-size: 1.6rem;
+}
+.not-nav {
+  background-color: #121212;
 }
 .intro-section {
   display: flex;
 }
 .intro-section .intro-right {
-  display: flex;
-  flex-direction: column;
+  width: 46%;
+  padding: 2%;
+}
+.intro-section .intro-right h2 {
+  margin-bottom: 30px;
+}
+.intro-section .intro-right p {
+  margin-bottom: 80px;
 }
 .intro-section .intro-right .sign-buttons {
   display: flex;
+  justify-content: space-around;
+}
+.intro-section .intro-left {
+  width: 46%;
+  padding: 2%;
 }
 .img-section {
   display: flex;
