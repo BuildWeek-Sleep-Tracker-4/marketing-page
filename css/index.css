@@ -170,6 +170,7 @@ p {
 }
 .intro-section {
   display: flex;
+  margin-bottom: 40px;
 }
 .intro-section .intro-right {
   width: 46%;
@@ -204,7 +205,11 @@ p {
 }
 .img-section {
   display: flex;
+  justify-content: space-around;
 }
 .img-section p {
+  margin-top: 20px;
   font-size: 1.8rem;
+  text-align: center;
+  width: 208px;
 }
