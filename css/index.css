@@ -187,11 +187,16 @@ p {
   font-size: 1.8rem;
 }
 .intro-section .intro-right .sign-buttons .btn {
-  background-color: #39869D;
+  border: 1px solid #39869D;
+  color: #39869D;
   text-align: center;
   padding: 13px 0;
   width: 208px;
   border-radius: 18px;
+}
+.intro-section .intro-right .sign-buttons .btn:hover {
+  background-color: #39869D;
+  color: rgba(255, 255, 255, 0.87);
 }
 .intro-section .intro-left {
   width: 46%;
