@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v28/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMPrQ.ttf) format('truetype');
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -126,12 +133,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.nav-bar {
-  background-color: #12121207;
-  display: flex;
-  justify-content: space-around;
-  padding: 50px 0;
-}
 html {
   font-size: 62.5%;
 }
@@ -139,14 +140,39 @@ html,
 body {
   background-color: #121212;
   color: rgba(255, 255, 255, 0.6);
+  font-family: 'Comfortaa', cursive;
 }
 h1,
 h2 {
+  font-weight: bold;
   color: rgba(255, 255, 255, 0.87);
+  font-size: 4.8rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 2.7rem;
+}
+.nav-bar {
+  background-color: darkgray;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
 }
 .intro-section {
   display: flex;
 }
+.intro-section .intro-right {
+  display: flex;
+  flex-direction: column;
+}
+.intro-section .intro-right .sign-buttons {
+  display: flex;
+}
 .img-section {
   display: flex;
+}
+.img-section p {
+  font-size: 1.8rem;
 }
