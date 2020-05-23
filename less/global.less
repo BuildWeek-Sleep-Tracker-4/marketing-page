@@ -26,7 +26,11 @@ p {
 }
 
 .container {
+    border: 1px red solid; 
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    @media @mobile {
+        max-width: 90%;
+    }
 }
