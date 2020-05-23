@@ -154,7 +154,6 @@ p {
   font-size: 2.7rem;
 }
 .container {
-  border: 1px red solid;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -218,6 +217,11 @@ p {
 .intro-section .intro-right .sign-buttons .btn:hover {
   background-color: #39869D;
   color: rgba(255, 255, 255, 0.87);
+}
+@media (max-width: 500px) {
+  .intro-section .intro-right .sign-buttons {
+    flex-direction: column;
+  }
 }
 @media (max-width: 500px) {
   .intro-section .intro-right {
