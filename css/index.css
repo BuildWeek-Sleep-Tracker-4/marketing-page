@@ -225,6 +225,7 @@ p {
 }
 @media (max-width: 500px) {
   .intro-section .intro-right {
+    border: blue solid 1px;
     width: 100%;
     padding: 0;
   }
@@ -233,14 +234,15 @@ p {
   width: 46%;
   padding: 2%;
 }
+.intro-section .intro-left img {
+  width: 100%;
+  height: auto;
+}
 @media (max-width: 500px) {
   .intro-section .intro-left {
+    border: red solid 1px;
     width: 100%;
     padding: 0;
-  }
-  .intro-section .intro-left img {
-    width: 80%;
-    height: auto;
   }
 }
 @media (max-width: 500px) {
