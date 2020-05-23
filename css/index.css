@@ -201,22 +201,32 @@ p {
   display: flex;
   margin-bottom: 40px;
 }
-.intro-section .intro-right {
+.intro-section .intro-left {
   width: 46%;
   padding: 2%;
 }
-.intro-section .intro-right h2 {
+.intro-section .intro-left h2 {
   margin-bottom: 30px;
 }
-.intro-section .intro-right p {
+@media (max-width: 500px) {
+  .intro-section .intro-left h2 {
+    text-align: center;
+  }
+}
+.intro-section .intro-left p {
   margin-bottom: 80px;
 }
-.intro-section .intro-right .sign-buttons {
+@media (max-width: 500px) {
+  .intro-section .intro-left p {
+    text-align: center;
+  }
+}
+.intro-section .intro-left .sign-buttons {
   display: flex;
   justify-content: space-around;
   font-size: 1.8rem;
 }
-.intro-section .intro-right .sign-buttons .btn {
+.intro-section .intro-left .sign-buttons .btn {
   border: 1px solid #39869D;
   color: #39869D;
   text-align: center;
@@ -224,31 +234,45 @@ p {
   width: 208px;
   border-radius: 18px;
 }
-.intro-section .intro-right .sign-buttons .btn:hover {
+@media (max-width: 500px) {
+  .intro-section .intro-left .sign-buttons .btn {
+    margin-bottom: 20px;
+  }
+}
+.intro-section .intro-left .sign-buttons .btn:hover {
   background-color: #39869D;
   color: rgba(255, 255, 255, 0.87);
 }
 @media (max-width: 500px) {
-  .intro-section .intro-right .sign-buttons {
+  .intro-section .intro-left .sign-buttons {
     flex-direction: column;
+    justify-content: space-around;
   }
 }
 @media (max-width: 500px) {
-  .intro-section .intro-right {
+  .intro-section .intro-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     padding: 0;
   }
 }
-.intro-section .intro-left {
+.intro-section .intro-right {
   width: 46%;
   padding: 2%;
 }
-.intro-section .intro-left img {
+.intro-section .intro-right img {
   width: 100%;
   height: auto;
 }
 @media (max-width: 500px) {
-  .intro-section .intro-left {
+  .intro-section .intro-right img {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .intro-section .intro-right {
     width: 100%;
     padding: 0;
   }
@@ -269,7 +293,13 @@ p {
   width: 208px;
 }
 @media (max-width: 500px) {
+  .img-section p {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 500px) {
   .img-section {
     flex-direction: column;
+    align-items: center;
   }
 }

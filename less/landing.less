@@ -6,19 +6,20 @@
    
   
 
-    .intro-right {
-        //This might not be the best way to do this
-        // display: flex;
-        // flex-direction: column;
-        // justify-content: space-around;
-        // p {
-        //     margin-bottom: 50px;
-        // }
+    .intro-left {
+        
         h2 {
             margin-bottom: 30px;
+            @media @mobile {
+                text-align: center;
+            }
+            
         }
         p {
             margin-bottom: 80px;
+            @media @mobile {
+                text-align: center;
+            }
         }
         
         
@@ -32,7 +33,7 @@
             display: flex;
             justify-content: space-around; 
             font-size: 1.8rem;
-            //border: 1px blue solid; 
+         
            
             .btn {
                 border: 1px solid @primary-color; 
@@ -41,6 +42,10 @@
                 padding: 13px 0; 
                 width: 208px; 
                 border-radius: 18px; 
+
+                @media @mobile {
+                    margin-bottom: 20px;
+                }
 
             }
 
@@ -51,32 +56,37 @@
 
             @media @mobile {
                 flex-direction: column;
+                justify-content: space-around;
             }
            
         }
 
         @media @mobile {
-
-            //Change width here
-           // border: blue solid 1px; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             width: 100%;
             padding: 0; 
            
             
         }
     }
-    //fix left/right possibly
-    .intro-left {
+    
+    .intro-right {
         width: 46%;
         padding: 2%;
 
         img {
             width: 100%;
             height: auto;
+
+            @media @mobile {
+                margin-bottom: 30px;
+            }
         }
         
         @media @mobile {
-            //border: red solid 1px; 
+            
             width: 100%;
             padding: 0; 
            
@@ -86,6 +96,8 @@
 
     @media @mobile {
         flex-direction: column-reverse;
+        
+       
     }
 
 }
@@ -95,22 +107,25 @@
 .img-section {
     display: flex;
     justify-content: space-around; 
+    
 
-    img {
-       
-    }
+   
 
     p {
         margin-top: 20px;
         font-size: 1.8rem;
         text-align: center;
         width: 208px; 
+
+        @media @mobile {
+            margin-bottom: 20px;
+        }
     }
 
     @media @mobile {
         flex-direction: column;
-       // justify-content: center; 
-        //align-items: center;
+        align-items: center;
+       
     }
     
 }
