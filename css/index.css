@@ -318,6 +318,10 @@ p {
     align-items: center;
   }
 }
+.about-page {
+  width: 90%;
+  padding: 5%;
+}
 .about-page h1,
 .about-page h3,
 .about-page h4 {
@@ -338,6 +342,15 @@ p {
   display: inline-block;
   text-align: center;
   max-width: 70%;
+  margin-bottom: 60px;
+}
+@media (max-width: 500px) {
+  .about-page .center .intro {
+    max-width: 85%;
+  }
+}
+.about-page #team-header {
+  margin-top: 50px;
 }
 .about-page .team {
   display: flex;
@@ -354,14 +367,20 @@ p {
 .about-page .team .team-member .title {
   font-size: 1.8rem;
   width: 90%;
+  text-align: center;
   color: rgba(255, 255, 255, 0.4);
+  height: 30px;
 }
 .about-page .team .team-member .name {
   font-size: 2.2rem;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .about-page .team .team-member {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 500px) {
