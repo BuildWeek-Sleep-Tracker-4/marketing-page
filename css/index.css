@@ -324,7 +324,7 @@ p {
   text-align: center;
 }
 .about-page p {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .about-page .center {
   text-align: center;
@@ -344,6 +344,7 @@ p {
 .about-page .team .team-member img {
   width: 90%;
   height: auto;
+  margin-bottom: 5px;
 }
 .about-page .team .team-member .title {
   font-size: 1.8rem;
@@ -352,4 +353,14 @@ p {
 }
 .about-page .team .team-member .name {
   font-size: 2.2rem;
+}
+@media (max-width: 500px) {
+  .about-page .team .team-member {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .about-page .team {
+    flex-direction: column;
+  }
 }
