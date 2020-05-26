@@ -316,7 +316,7 @@ p {
 .about-page h1,
 .about-page h3,
 .about-page h4 {
-  color: #39869D;
+  color: rgba(255, 255, 255, 0.87);
 }
 .about-page h1,
 .about-page h3 {
@@ -329,4 +329,15 @@ p {
   display: inline-block;
   text-align: center;
   max-width: 75%;
+  border-top: 2px solid #39869D;
+}
+.about-page .team {
+  display: flex;
+  flex-direction: row;
+}
+.about-page .team .title {
+  font-size: 1.8rem;
+}
+.about-page .team .name {
+  font-size: 2.2rem;
 }
