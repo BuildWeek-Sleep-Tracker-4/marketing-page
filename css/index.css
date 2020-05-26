@@ -317,10 +317,14 @@ p {
 .about-page h3,
 .about-page h4 {
   color: rgba(255, 255, 255, 0.87);
+  margin-bottom: 30px;
 }
 .about-page h1,
 .about-page h3 {
   text-align: center;
+}
+.about-page p {
+  margin-bottom: 15px;
 }
 .about-page .center {
   text-align: center;
@@ -328,16 +332,24 @@ p {
 .about-page .center .intro {
   display: inline-block;
   text-align: center;
-  max-width: 75%;
-  border-top: 2px solid #39869D;
+  max-width: 70%;
 }
 .about-page .team {
   display: flex;
   flex-direction: row;
 }
-.about-page .team .title {
-  font-size: 1.8rem;
+.about-page .team .team-member {
+  width: 25%;
 }
-.about-page .team .name {
+.about-page .team .team-member img {
+  width: 90%;
+  height: auto;
+}
+.about-page .team .team-member .title {
+  font-size: 1.8rem;
+  width: 90%;
+  color: rgba(255, 255, 255, 0.4);
+}
+.about-page .team .team-member .name {
   font-size: 2.2rem;
 }

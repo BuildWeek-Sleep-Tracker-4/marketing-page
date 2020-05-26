@@ -2,6 +2,7 @@
     
     h1, h3, h4 {
         color: @text-high-emphasis; 
+        margin-bottom: 30px;
         
     }
 
@@ -9,29 +10,42 @@
        text-align: center; 
    }
 
-  
+  p {
+      margin-bottom: 15px;
+  }
 
    .center {
        text-align: center;
         .intro {
             display: inline-block;
             text-align: center;
-            max-width: 75%;
-            border-top: 2px solid @primary-color;
+            max-width: 70%;
+            //border-top: 2px solid @primary-color;
         }
    }
 
    .team {
        display: flex;
        flex-direction: row;
-
-       .title {
+       
+       .team-member {
+        width: 25%;
+        img {
+            width: 90%;
+            height: auto;
+        }
+        .title {
             font-size: 1.8rem;
+            width: 90%;
+            color: @text-low-emphasis;
        }
 
        .name {
            font-size: 2.2rem;
        }
+       }
+
+       
    }
 
 }
