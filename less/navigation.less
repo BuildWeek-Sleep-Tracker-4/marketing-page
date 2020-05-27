@@ -1,0 +1,46 @@
+
+//Edit appearance of clicked link?
+
+.nav-bar {
+    background-color: @header-background;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 50px;
+
+    a {
+        font-size: 2.4rem;
+     }
+     a:hover {
+         color: @text-low-emphasis;
+     }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+        a {
+            //padding: 0 100px;
+           
+           
+            @media @mobile {
+                padding: 0;
+            }
+        }
+        
+        @media @tablet{
+            
+            .flex-column-center();
+        }
+
+    }
+
+    @media @mobile {
+        flex-direction: column;
+       
+       
+    }
+    
+ 
+}

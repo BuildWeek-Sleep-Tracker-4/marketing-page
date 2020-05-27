@@ -1,0 +1,147 @@
+
+//Tweak how buttons work
+//Make links real
+
+
+.intro-section {
+   display: flex;
+   margin-bottom: 40px;
+   
+  
+
+    .intro-left {
+
+        width: 46%;
+        padding: 2%;
+        
+        h2 {
+            margin-bottom: 30px;
+           
+            @media @mobile {
+                text-align: center;
+            }
+            
+        }
+        p {
+            margin-bottom: 80px;
+            @media @mobile {
+                text-align: center;
+            }
+        }
+        
+        
+       
+        
+        
+
+        
+        .sign-buttons {
+            display: flex;
+            justify-content: space-around; 
+            font-size: 1.8rem;
+         
+           
+            .btn {
+                border: 1px solid @primary-color; 
+                color: @primary-color;
+                text-align: center; 
+                padding: 13px 0; 
+                width: 208px; 
+                //Try percentile
+                border-radius: 18px; 
+
+                @media @mobile {
+                    margin-bottom: 20px;
+                }
+
+            }
+
+            .btn:hover {
+                background-color: @primary-color; 
+                color: @text-high-emphasis;
+            }
+
+            @media @mobile {
+                flex-direction: column;
+                justify-content: space-around;
+            }
+           
+        }
+
+        @media @mobile {
+         
+            .flex-column-center();
+            width: 100%;
+            padding: 0; 
+           
+            
+        }
+    }
+    
+    .intro-right {
+        width: 46%;
+        padding: 2%;
+
+        img {
+            width: 100%;
+            height: auto;
+
+            @media @mobile {
+                margin-bottom: 30px;
+            }
+        }
+        
+        @media @mobile {
+            
+            width: 100%;
+            padding: 0; 
+           
+        }
+       
+    }
+
+    @media @mobile {
+        flex-direction: column-reverse;
+        
+       
+    }
+
+}
+
+
+
+.img-section {
+    display: flex;
+    justify-content: space-around; 
+    
+
+   
+
+    p {
+        margin-top: 20px;
+        font-size: 1.8rem;
+        text-align: center;
+        width: 208px; 
+        margin-bottom: 60px;
+
+        @media @mobile {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media @mobile {
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    
+    
+}
+
+#credit {
+    font-size: 1.8rem;
+    color: @text-medium-emphasis;
+    margin-top: 50px;
+    padding-top: 50px;
+    
+}
