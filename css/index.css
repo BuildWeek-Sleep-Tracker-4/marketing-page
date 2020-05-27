@@ -311,6 +311,13 @@ a:visited {
   display: flex;
   justify-content: space-around;
 }
+.img-section img {
+  border: 2px #39869D solid;
+  border-radius: 15px;
+  height: 208px;
+  width: 192px;
+  object-fit: contain;
+}
 .img-section p {
   margin-top: 20px;
   font-size: 1.8rem;
