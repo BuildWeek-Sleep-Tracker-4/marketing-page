@@ -312,7 +312,7 @@ a:visited {
   justify-content: space-around;
 }
 .img-section img {
-  border: 2px #39869D solid;
+  border: 1px rgba(57, 134, 157, 0.2) solid;
   border-radius: 15px;
   height: 208px;
   width: 192px;
