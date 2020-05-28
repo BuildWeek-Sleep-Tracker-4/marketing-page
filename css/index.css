@@ -380,8 +380,19 @@ a:visited {
   display: flex;
   flex-direction: row;
 }
+@media (max-width: 800px) {
+  .about-page .team {
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
 .about-page .team .team-member {
   width: 20%;
+}
+@media (max-width: 800px) {
+  .about-page .team .team-member {
+    min-width: 150px;
+  }
 }
 .about-page .team .team-member img {
   width: 90%;
