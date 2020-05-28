@@ -325,6 +325,13 @@ a:visited {
   width: 192px;
   object-fit: contain;
 }
+@media (max-width: 500px) {
+  .img-section img {
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+  }
+}
 .img-section p {
   margin-top: 20px;
   font-size: 1.8rem;
@@ -334,7 +341,9 @@ a:visited {
 }
 @media (max-width: 500px) {
   .img-section p {
-    margin-bottom: 20px;
+    width: 80%;
+    padding: 10%;
+    font-size: 2.6rem;
   }
 }
 @media (max-width: 500px) {
