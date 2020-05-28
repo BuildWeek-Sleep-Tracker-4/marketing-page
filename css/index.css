@@ -387,6 +387,8 @@ a:visited {
   width: 90%;
   height: auto;
   margin-bottom: 5px;
+  border-radius: 15%;
+  border: 2px solid #39869D;
 }
 .about-page .team .team-member .title {
   font-size: 1.8rem;
