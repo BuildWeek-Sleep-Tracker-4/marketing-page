@@ -1,6 +1,4 @@
 
-//Tweak how buttons work
-//Make links real
 
 
 .intro-section {
@@ -46,13 +44,15 @@
                 color: @primary-color;
                 text-align: center; 
                 padding: 13px 0; 
-                width: 208px; 
+                //width: 208px; 
                 //Try percentile
+                width: 40%;
                 border-radius: 18px; 
-
-                @media @mobile {
+                @media @tablet {
+                    width: 208px;
                     margin-bottom: 20px;
                 }
+                
 
             }
 
@@ -61,7 +61,7 @@
                 color: @text-high-emphasis;
             }
 
-            @media @mobile {
+            @media @tablet {
                 flex-direction: column;
                 justify-content: space-around;
             }
