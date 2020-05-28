@@ -194,6 +194,11 @@ a:visited {
   padding: 20px 0;
   margin-bottom: 50px;
 }
+@media (max-width: 500px) {
+  .nav-bar h1 {
+    margin-bottom: 15px;
+  }
+}
 .nav-bar a {
   font-size: 2.4rem;
 }
@@ -208,6 +213,7 @@ a:visited {
 @media (max-width: 500px) {
   .nav-bar nav a {
     padding: 0;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 800px) {
@@ -256,11 +262,12 @@ a:visited {
   color: #39869D;
   text-align: center;
   padding: 13px 0;
-  width: 208px;
+  width: 40%;
   border-radius: 18px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .intro-section .intro-left .sign-buttons .btn {
+    width: 208px;
     margin-bottom: 20px;
   }
 }
@@ -268,7 +275,7 @@ a:visited {
   background-color: #39869D;
   color: rgba(255, 255, 255, 0.87);
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .intro-section .intro-left .sign-buttons {
     flex-direction: column;
     justify-content: space-around;
